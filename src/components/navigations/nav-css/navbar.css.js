@@ -8,6 +8,7 @@ const StyledNav = styled("nav")({
   top: 0,
   left: 0,
   padding: "0.4rem",
+  zIndex: 10,
 });
 
 const StyledLinks = styled(Link)({
@@ -32,7 +33,7 @@ const StyledButton = styled(Button)({
 });
 
 const LogoImage = styled("img")({
-  height: "1.5rem",
+  height: "1.8rem",
   padding: "1rem",
 });
 
